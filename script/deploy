@@ -1,5 +1,6 @@
 #!/bin/sh
-ssh -t -t nodejs@139.59.44.117<<EOF
+ssh nodejs@139.59.44.117
+<<EOF
    cd /var/www/html/
    git pull origin master
    npm install --production
