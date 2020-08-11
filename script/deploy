@@ -1,5 +1,5 @@
 #!/bin/sh
-ssh nodejs@139.59.44.117
+ssh -t nodejs@139.59.44.117
 
    cd /var/www/html/node-app
    sudo git pull origin master
