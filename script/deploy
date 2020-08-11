@@ -1,8 +1,8 @@
 #!/bin/sh
 ssh -t nodejs@139.59.44.117
 
-   sudo cd /var/www/html/node-app
-   sudo git pull origin master
-   sudo npm install --production
-   sudo pm2 restart all
+   sudo -tty cd /var/www/html/node-app
+   sudo -tty git pull origin master
+   sudo -tty npm install --production
+   sudo -tty pm2 restart all
    exit
